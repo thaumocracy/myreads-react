@@ -1,0 +1,10 @@
+.link__home {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+}
+
+.link__home  a {
+    color:darkcyan;
+    font-size:1.3em;
+}
