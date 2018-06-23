@@ -14,8 +14,8 @@ const Book = (props) => {
     };
     return (
         <div className="book">
-            <h3 className="book__title">{book.title}</h3>
             <img src={image} alt="" className="book__image" style={style}/>
+            <h3 className="book__title">{book.title}</h3>
             <p className="authors">{authors}</p>
             <ShelfChanger shelf = { book.shelf || 'none' } updateShelf = {newShelf => updateShelf(newShelf)}/>
         </div>
