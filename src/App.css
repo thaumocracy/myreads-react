@@ -1,17 +1,17 @@
 .search__link {
-    position:fixed;
-    bottom:30px;
-    right:20px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
 }
 
 .search__link > a {
-    color:forestgreen;
-    padding:15px;
-    font-size:1.5em;
+    color: forestgreen;
+    padding: 15px;
+    font-size: 1.5em;
 }
 
 .search__link--home{
     vertical-align: center;
-    width:30px;
-    height:30px;
+    width: 30px;
+    height: 30px;
 }

@@ -1,9 +1,9 @@
 .search__bar__input {
-    width:100%;
-    min-height:50px;
-    border:none;
-    border-bottom:2px solid darkred;
-    font-size:2em;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    border-bottom: 2px solid darkred;
+    font-size: 2em;
 }
 
 .search__bar__input:focus {
