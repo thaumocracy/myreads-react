@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ShelfChanger = (props) => {
-    const { updateShelf , shelf} = props;
+    const { updateShelf , shelf } = props;
     return (
         <div className="changer__container">
             <select value={shelf} className="changer" onChange={(event => updateShelf(event.target.value))}>

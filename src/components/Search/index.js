@@ -2,7 +2,7 @@ import React , { Component } from 'react';
 import * as BooksAPI from '../../BooksAPI';
 import SearchBar from "../SearchBar/index";
 import SearchDisplay from "../SearchDisplay/index";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Search.css'
 
 class Search extends Component {
